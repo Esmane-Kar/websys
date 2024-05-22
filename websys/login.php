@@ -88,6 +88,7 @@ $conn->close();
 
             <?php if(!empty($error_message)): ?>
                 alert("<?php echo $error_message; ?>");
+                //comment ni Esmane
             <?php endif; ?>
         });
     </script>
