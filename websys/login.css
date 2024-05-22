@@ -1,0 +1,94 @@
+.container{
+    background-image: url('image/fruitbg.jpg');
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    padding: 1%;
+    max-width: 200%;
+    max-height: 200%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid snow;
+    padding: 1%;
+    margin: 0%;
+}
+.login-header img{
+    padding: 1%;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.login-body{
+    padding: 1%;
+    margin:0 auto;
+    width: 30%;
+    height: 300px;
+    background: rgba(0,0,0,.5);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.login-body form{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+
+}
+.username input{
+    height: 30px;
+    width: 90%;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px 8px;
+}
+
+.pass input{
+    height: 30px;
+    width: 90%;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px 8px;
+}
+
+.loginBtn{
+    text-align: center;
+}
+.loginBtn button{
+    margin-top: 10px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 100%;
+    height: 50px;
+    width: 40%;
+}
+.forgotP p{
+    margin-left: 1%;
+    color: white;
+}
+.forgotP a{
+    text-decoration: none;
+    color: rgb(0, 179, 255);
+}
+
+@media screen and (max-width: 768px){
+    .login-body{
+        display: block;
+        width: 90%;
+        height: auto;
+    }
+}
+
