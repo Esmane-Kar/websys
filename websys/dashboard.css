@@ -1,0 +1,23 @@
+th {
+    font-size: 300%;
+}
+td {
+    margin-left: 300px;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
